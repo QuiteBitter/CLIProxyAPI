@@ -1,5 +1,6 @@
 # Binaries
 cli-proxy-api
+server
 *.exe
 
 # Configuration
@@ -15,6 +16,10 @@ pgstore/*
 gitstore/*
 objectstore/*
 static/*
+runs/
+storage/
+server.log
+test.png
 
 # Authentication data
 auths/*
